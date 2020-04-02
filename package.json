@@ -3,10 +3,11 @@
   "version": "2.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "heroku-postbuild": "yarn run build"
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
     "node": "12.16.1"
