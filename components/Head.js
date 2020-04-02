@@ -3,9 +3,8 @@ import React from "react";
 
 const defaultDescription =
   "Fanbefaling giver dig en lille, men nøje udvalgt samling podcasts.";
-const defaultOGURL = "http://www.fanbefaling.dk";
-const defaultOGImage =
-  "http://www.fanbefaling.dk/static/fanbefaling_banner.png";
+const defaultOGURL = "https://www.fanbefaling.dk";
+const defaultOGImage = "https://www.fanbefaling.dk/fb-banner.png";
 
 export default ({ podcast }) => {
   const { titel, beskrivelse, billede, url } = podcast?.fields || {};
