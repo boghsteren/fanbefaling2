@@ -8,6 +8,9 @@
     "start": "next start",
     "heroku-postbuild": "yarn run build"
   },
+  "engines": {
+    "node": "12.16.1"
+  },
   "dependencies": {
     "contentful": "^7.14.0",
     "evergreen-ui": "^4.24.0",
